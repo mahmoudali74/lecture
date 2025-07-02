@@ -1,0 +1,35 @@
+{
+  "name": "my-store",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "npm install --legacy-peer-deps && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.1.1",
+    "dayjs": "^1.11.13",
+    "framer-motion": "^12.17.3",
+    "js-cookie": "^3.0.5",
+    "jsqr": "^1.4.0",
+    "moment": "^2.30.1",
+    "next": "15.3.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.58.0",
+    "react-icons": "^5.5.0",
+    "react-select": "^5.10.1",
+    "swiper": "^11.2.8",
+    "zod": "^3.25.64"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "tailwindcss": "^4"
+  }
+}
