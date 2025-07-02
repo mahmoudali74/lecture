@@ -25,12 +25,13 @@
     "react-icons": "^5.5.0",
     "react-select": "^5.10.1",
     "swiper": "^11.2.8",
-    "zod": "^3.25.64"
+    "zod": "^3.25.64",
+    "tailwindcss": "^3.4.1",
+    "@tailwindcss/postcss": "^0.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
-    "eslint-config-next": "15.3.3",
-    "tailwindcss": "^4.1.11"
+    "eslint-config-next": "15.3.3"
   }
 }
